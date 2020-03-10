@@ -1,0 +1,229 @@
+#I know it goes around twice, i think it looks better like that.
+#I also know that i can use a shit ton of for() loops to make it smaller but copy and paste is just as efficient.
+
+import turtle 
+
+terry = turtle.Turtle()
+terry.speed(50)
+terry.penup()
+
+terry.left(180)
+terry.forward(250)
+terry.right(90)
+terry.forward(250)
+
+terry.pendown()
+
+terry.color("blue")
+terry.right(90)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+
+terry.begin_fill()
+for i in range(6):
+  terry.forward(50)
+  terry.right(60)
+terry.end_fill()
+
+terry.penup()
+terry.forward(450)
+terry.pendown()
+terry.color("black")
+
+terry.forward(100)
+terry.right(90)
+terry.forward(100)
+terry.right(90)
+terry.forward(100)
+terry.right(90)
+terry.forward(100)
+terry.right(90)
+
+terry.begin_fill()
+for x in range(4):
+  terry.forward(100)
+  terry.right(90)
+terry.end_fill()
+
+terry.penup()
+terry.right(90)
+terry.forward(450)
+terry.left(90)
+terry.forward(100)
+terry.pendown()
+terry.color("red")
+
+terry.right(120)
+terry.forward(120)
+terry.right(120)
+terry.forward(120)
+terry.right(120)
+terry.forward(120)
+
+terry.begin_fill()
+for t in range(3):
+  terry.right(120)
+  terry.forward(120)
+terry.end_fill()
+
+terry.penup()
+terry.right(180)
+terry.forward(600)
+terry.right(270)
+terry.forward(100)
+terry.pendown()
+terry.color("orange")
+
+terry.right(180)
+terry.forward(75)
+terry.right(72)
+terry.forward(75)
+terry.right(72)
+terry.forward(75)
+terry.right(72)
+terry.forward(75)
+terry.right(72)
+terry.forward(75)
+terry.right(72)
+
+terry.begin_fill()
+for t in range(5):
+  terry.forward(75)
+  terry.right(72)
+terry.end_fill()
+
+#I know it goes around twice, i think it looks better like that.
+#I also know that i can use a shit ton of for() loops to make it smaller but copy and paste is just as efficient.
+
+import turtle 
+
+terry = turtle.Turtle()
+terry.speed(50)
+terry.penup()
+
+terry.left(180)
+terry.forward(250)
+terry.right(90)
+terry.forward(250)
+
+terry.pendown()
+
+terry.color("blue")
+terry.right(90)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+terry.forward(50)
+terry.right(60)
+
+terry.begin_fill()
+for i in range(6):
+  terry.forward(50)
+  terry.right(60)
+terry.end_fill()
+
+terry.penup()
+terry.forward(450)
+terry.pendown()
+terry.color("black")
+
+terry.forward(100)
+terry.right(90)
+terry.forward(100)
+terry.right(90)
+terry.forward(100)
+terry.right(90)
+terry.forward(100)
+terry.right(90)
+
+terry.begin_fill()
+for x in range(4):
+  terry.forward(100)
+  terry.right(90)
+terry.end_fill()
+
+terry.penup()
+terry.right(90)
+terry.forward(450)
+terry.left(90)
+terry.forward(100)
+terry.pendown()
+terry.color("red")
+
+terry.right(120)
+terry.forward(120)
+terry.right(120)
+terry.forward(120)
+terry.right(120)
+terry.forward(120)
+
+terry.begin_fill()
+for t in range(3):
+  terry.right(120)
+  terry.forward(120)
+terry.end_fill()
+
+terry.penup()
+terry.right(180)
+terry.forward(600)
+terry.right(270)
+terry.forward(100)
+terry.pendown()
+terry.color("orange")
+
+terry.right(180)
+terry.forward(75)
+terry.right(72)
+terry.forward(75)
+terry.right(72)
+terry.forward(75)
+terry.right(72)
+terry.forward(75)
+terry.right(72)
+terry.forward(75)
+terry.right(72)
+
+terry.begin_fill()
+for t in range(5):
+  terry.forward(75)
+  terry.right(72)
+terry.end_fill()
+
+terry.penup()
+terry.forward(350)
+terry.right(90)
+terry.forward(300)
+terry.pendown()
+
+terry.color("blue")
+terry.right(45)
+terry.forward(70)
+terry.right(90)
+terry.forward(70)
+terry.right(90)
+terry.forward(70)
+terry.right(90)
+terry.forward(70)
+
+terry.begin_fill()
+for m in range(5):
+  terry.right(90)
+  terry.forward(70)
+terry.end_fill()
